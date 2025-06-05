@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QR Access</string>
+    <string name="header">QR Access - QR Code Scan &amp; Gen</string>
+    <string name="policy">https://kholifa.com/apps-privacy-policy.html</string>
+    <string name="app_link">https://appupps.com/qraccess</string>
+
+    <!--    test id-->
+    <string name="admob_appid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_int">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="phone_code" translatable="false">+%s</string>
+    <string name="country_name_and_code" translatable="false">%1$s (%2$s)</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="no_result_found">No result found</string>
+    <string name="select_country">Select Country</string>
+    <string name="country_code_and_phone_code" translatable="false">(%1$s) +%2$s</string>
+    <string name="country_full_name_and_phone_code" translatable="false">%1$s +%2$s</string>
+    <string name="country_full_name_and_name_code" translatable="false">%1$s (%2$s)</string>
+    <string name="country_full_name_name_code_and_phone_code" translatable="false">%1$s (%2$s) +%3$s</string>
+    <string name="error_unregister_carrier_number" translatable="false">EditText for carrier number is not registered. Register it using registerPhoneNumberTextView() before getFullNumber() or setFullNumber().</string>
+
+</resources>

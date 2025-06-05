@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_rly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/compact_display_medium"
+        android:text="@string/select_country"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/search_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_tv"
+        android:backgroundTint="@color/whitetrans"
+        android:fontFamily="@font/compact_display_regular"
+        android:hint="@string/search_hint"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textColorHint="@color/whitetrans"
+        android:textCursorDrawable="@null" />
+
+
+    <ListView
+        android:id="@+id/country_dialog_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_edt"
+        android:dividerHeight="2dp"
+        android:nestedScrollingEnabled="true" />
+
+    <TextView
+        android:id="@+id/no_result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_edt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/no_result_found"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+</RelativeLayout>
